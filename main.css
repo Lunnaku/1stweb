@@ -1,6 +1,6 @@
 #outer {
  border-width: 9px;
- height: 50px;
+ height: 100px;
   border-style: double;
  border-color: green;
 }
@@ -12,7 +12,7 @@ left: 50px;
  border-width: 2px;
  height: 150px;
  position: absolute;
- bottom: 1;
+ bottom: 1px;
 
 }
 
