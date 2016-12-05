@@ -2,4 +2,7 @@
 .myclass {
  text-align: center;
   width:100%;
+  border-style: solid;
+ border-width: 2px;
+
 }
