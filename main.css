@@ -2,12 +2,15 @@
 		body{  
 			background-color:#666;
 			color:white;
-			border-radius:10px;
 		}
 		
 		a{
 			color:white;
 			text-decoration:none;
+		}
+		a:hover{
+			background-color:#333;
+			font-weight:bold;
 		}
 
 		ul{
@@ -24,11 +27,14 @@
 			margin:30px auto;
 			overflow:hidden;
 			padding:10px;
+			border-radius: 10px;
 		}
 
 		nav{
 			height:40px;
 			background:#666;
+			border-top-right-radius:10px;
+			border-top-left-radius:10px;
 		}
 
 		nav ul{
@@ -57,7 +63,9 @@
 		}
 		footer{
 			text-align: center;
-			padding:4px;
+			padding:10px;
 			background-color:#666;
 			margin-top:30px;
+			border-bottom-right-radius:10px;
+			border-bottom-left-radius:10px;
 		}
