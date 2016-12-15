@@ -1,43 +1,62 @@
-#menu
-{
- width: 25px;
- height: 100px;
- text-align: right;
-}
 
-#menul ul
-{
-margin: 0;
-padding: 0;
-list-style-type: none;
-}
+		body{  
+			background-color:#666;
+			color:white;
+		}
+		
+		a{
+			color:white;
+			text-decoration:none;
+		}
 
-#menul a
-{
-display: block;
-color: #FFF;
-background-color: #036;
-width: 9em;
-padding: 3px 12px 3px 8px;
-text-decoration: none;
-border-bottom: 1px solid #fff;
-font-weight: bold;
-}
+		ul{
+			padding:0;
+		}
 
-#menul a:hover
-{
-background-color: #369;
-color: #FFF;
-}
+		.clr{
+			clear:both;
+		}
 
-#menul li li a
-{
-display: block;
-color: #FFF;
-background-color: #69C;
-width: 9em;
-padding: 3px 3px 3px 17px;
-text-decoration: none;
-border-bottom: 1px solid #fff;
-font-weight: normal;
-}
+		#container{
+			background-color: #333;
+			width:960px;
+			margin:30px auto;
+			overflow:hidden;
+			padding:10px;
+		}
+
+		nav{
+			height:40px;
+			background:#666;
+		}
+
+		nav ul{
+			padding-top:13px;
+			padding-left:10px;
+		}
+
+		nav li{
+			list-style:none;
+			float:left;
+			padding-right:20px;
+		}
+
+		main{
+			float:left;
+			width:60%;
+			}
+
+		aside{ 
+			float:right;
+			width:12%;
+			background-color:#666;
+			margin-top:20px;
+			padding:10px;
+
+		}
+		footer{
+			text-align: center;
+			padding:10px;
+			background-color:#666;
+			margin-top:30px;
+		}
