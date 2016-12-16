@@ -56,8 +56,9 @@
 		aside{ 
 			float:right;
 			width:12%;
+			align-content: center;
 			background-color:#666;
-			margin-top:20px;
+			margin-top:10px;
 			padding:10px;
 
 		}
